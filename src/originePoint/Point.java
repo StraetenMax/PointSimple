@@ -2,30 +2,30 @@ package originePoint;
 
 public class Point {
 	//propriétés
-	private double abscisse;
-	private double ordonne;
+	private int abscisse;
+	private int ordonne;
 	
 	//constructeurs
 	public Point(){
-		abscisse = 00.00;
-		ordonne = 00.00;
+		abscisse = 0;
+		ordonne = 0;
 	}
-	public Point(double abscisse, double ordonne){
+	public Point(int abscisse, int ordonne){
 		this.abscisse = abscisse;
 		this.ordonne = ordonne;
 	}
 	
 	//accesseurs et mutateurs
-	public double getAbscisse(){
+	public int getAbscisse(){
 		return abscisse;
 	}
-	public void setAbscisse(double abscisse){
+	public void setAbscisse(int abscisse){
 		this.abscisse = abscisse;
 	}
-	public double getOrdonne(){
+	public int getOrdonne(){
 		return ordonne;
 	}
-	public void setOrdonne(double ordonne){
+	public void setOrdonne(int ordonne){
 		this.ordonne = ordonne;
 	}
 	

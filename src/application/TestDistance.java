@@ -10,9 +10,9 @@ public class TestDistance {
 		Scanner clavier = new Scanner(System.in);
 		for (int i = 0; i < points.length; i++) {	
 			System.out.print("la position " + (i + 1) + " de x est :");
-			double abscisse = clavier.nextDouble();
+			int abscisse = clavier.nextInt();
 			System.out.print("la position " + (i + 1) + " de Y est :");
-			double ordonne = clavier.nextDouble();
+			int ordonne = clavier.nextInt();
 			points[i] = new Point(abscisse, ordonne);
 		}
 		clavier.close();
