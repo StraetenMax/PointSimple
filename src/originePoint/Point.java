@@ -31,7 +31,7 @@ public class Point {
 	
 	//méthodes
 	public double distance(){
-		return Math.sqrt(Math.pow(this.getAbscisse(), this.getOrdonne()));
+		return Math.sqrt(Math.pow(this.getAbscisse(),2) + Math.pow(this.getOrdonne(),2));
 	}
 	public String toString(){
 		return "La distance entre l’origine et le Point ("+this.abscisse+","+this.ordonne+") est : "+this.distance();  
