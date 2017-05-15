@@ -30,10 +30,10 @@ public class Point {
 	}
 	
 	//méthodes
-	public distance(){
-		
+	public double distance(){
+		return Math.sqrt(Math.pow(this.getAbscisse(), this.getOrdonne()));
 	}
 	public String toString(){
-		return "La distance entre l’origine et le Point"+this.point+" est : "+this.distance;  
+		return "La distance entre l’origine et le Point ("+this.abscisse+","+this.ordonne+") est : "+this.distance();  
 	}
 }
