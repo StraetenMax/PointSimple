@@ -15,4 +15,25 @@ public class Point {
 		this.ordonne = ordonne;
 	}
 	
+	//accesseurs et mutateurs
+	public double getAbscisse(){
+		return abscisse;
+	}
+	public void setAbscisse(double abscisse){
+		this.abscisse = abscisse;
+	}
+	public double getOrdonne(){
+		return ordonne;
+	}
+	public void setOrdonne(double ordonne){
+		this.ordonne = ordonne;
+	}
+	
+	//méthodes
+	public distance(){
+		
+	}
+	public String toString(){
+		return "La distance entre l’origine et le Point"+this.point+" est : "+this.distance;  
+	}
 }
